@@ -127,3 +127,119 @@ body {
 li + li {
    padding-left: 10px;
 }
+
+#modal {
+   display: none;
+}
+
+.slider {
+   background-image: url(../img/slider-fon.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 500px;
+   color: #fff;
+}
+
+.slider__item-content {
+   text-align: center;
+   padding-top: 110px;
+   max-width: 665px;
+   margin: 0 auto;
+}
+
+.slider__title {
+   text-transform: uppercase;
+   font-family: "Roboto", sans-serif;
+   font-size: 30px;
+   line-height: 36px;
+   font-weight: 500;
+   letter-spacing: 0.05em;
+   margin-bottom: 22px;
+}
+
+.slider__text {
+   font-size: 18px;
+   line-height: 24px;
+   color: #d3d2d2;
+   margin-bottom: 50px;
+}
+
+.default-btn {
+   display: inline-block;
+   font-family: "Roboto", sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+   font-weight: 500;
+   padding: 8px 30px 8px 24px;
+   color: #fff;
+   border: 1px solid #ffc222;
+   border-right-width: 20px;
+   position: relative;
+   z-index: 2;
+   outline: none;
+}
+
+.default-btn::after {
+   outline: none;
+   content: "\f105";
+   font-family: "icomoon";
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: -12px;
+   -webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   -o-transform: translateY(-50%);
+}
+.slider__inner {
+   position: relative;
+}
+
+.slick-btn {
+   position: absolute;
+   top: 70%;
+   z-index: 3;
+   width: 40px;
+   height: 40px;
+   border: 1px solid #fff;
+   background-color: transparent;
+   cursor: pointer;
+   outline: none;
+   background-color: #ffc222;
+}
+
+.slick-btn.slick-disabled {
+   background-color: transparent;
+   cursor: default;
+}
+
+.slick-btn::before {
+   position: absolute;
+   color: #fff;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+}
+
+.slick-next {
+   right: 0;
+}
+.slick-next::before {
+   content: "\f105";
+   font-family: "icomoon";
+}
+
+.slick-prev {
+   left: 0;
+}
+
+.slick-prev::before {
+   content: "\f104";
+   font-family: "icomoon";
+}
