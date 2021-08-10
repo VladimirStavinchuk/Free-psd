@@ -160,16 +160,6 @@ li + li {
 
 .slider__text {
    font-size: 18px;
-   line-height: 24px;
-   color: #d3d2d2;
-   margin-bottom: 50px;
-}
-
-.default-btn {
-   display: inline-block;
-   font-family: "Roboto", sans-serif;
-   font-size: 14px;
-   line-height: 24px;
    font-weight: 500;
    padding: 8px 30px 8px 24px;
    color: #fff;
@@ -242,4 +232,95 @@ li + li {
 .slick-prev::before {
    content: "\f104";
    font-family: "icomoon";
+}
+
+.about {
+   padding: 50px 0px 30px;
+}
+
+.about__top {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 60px;
+}
+
+.about__title-box {
+   max-width: 520px;
+   padding-left: 140px;
+   position: relative;
+}
+
+.about__title-box::before {
+   content: "";
+   position: absolute;
+   width: 100px;
+   height: 2px;
+   background-color: #ffc222;
+   left: 0;
+   top: 11px;
+}
+
+.about-title {
+   font-family: "Roboto", sans-serif;
+   font-size: 24px;
+   line-height: 24px;
+   font-weight: 500;
+   color: #212020;
+   margin-bottom: 10px;
+}
+.about-text {
+   font-family: "PT Serif", serif;
+   font-size: 14px;
+   line-height: 18px;
+   font-weight: 400;
+   letter-spacing: 0.1px;
+   color: #5e5e5e;
+}
+
+.about__btn a {
+   font-family: "Roboto", sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+   font-weight: 400;
+   letter-spacing: 0.25px;
+   color: #373636;
+   padding: 5px 38px;
+   border: 3px solid #e6e6e6;
+}
+
+.about__items {
+   display: flex;
+   justify-content: space-between;
+}
+
+.about__item {
+   max-width: 360px;
+   text-align: center;
+   padding: 30px 0px 80px;
+   position: relative;
+   min-height: 375px;
+   background-color: #ccc;
+}
+
+.about__item-title {
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+   line-height: 24px;
+   font-weight: 500;
+   color: #212020;
+   padding: 24px 0;
+}
+.about__item-text {
+   font-family: "PT Serif", serif;
+   font-size: 14px;
+   line-height: 18px;
+   font-weight: 400;
+   letter-spacing: 0.01em;
+   color: #5e5e5e;
+   padding: 0px 30px 30px;
+}
+
+.about__item-btn {
+   position: absolute;
+   bottom: 40px;
 }
