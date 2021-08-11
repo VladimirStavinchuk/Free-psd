@@ -10,4 +10,4 @@ Cкачать psd макет - http://bit.ly/2ZnLC8u
 Готовая верстка сайта - http://bit.ly/2Pkn5wz
 
 
-time: 2:43:11
+time: 2:55:11

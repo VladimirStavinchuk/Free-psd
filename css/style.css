@@ -363,3 +363,48 @@ li + li {
   color: #050505;
   margin-right: 60px;
 }
+
+.about {
+  background-image: url(../img/about-fon.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  padding: 25px 0px 45px;
+}
+
+.about__inner {
+  max-width: 545px;
+}
+
+.about__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 10px 0px 25px;
+}
+
+.about__text {
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  color: #d3d2d2;
+  margin-bottom: 30px;
+}
+
+.about__btn.default-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  color: #ffffff;
+}
+
+.about__btn.default-btn::after {
+  color: #000;
+}
