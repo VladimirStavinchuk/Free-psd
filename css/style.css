@@ -248,23 +248,23 @@ li + li {
   font-family: "icomoon";
 }
 
-.about {
+.services {
   padding: 50px 0px 30px;
 }
 
-.about__top {
+.services__top {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
 }
 
-.about__title-box {
+.services__title-box {
   max-width: 520px;
   padding-left: 140px;
   position: relative;
 }
 
-.about__title-box::before {
+.services__title-box::before {
   content: "";
   position: absolute;
   width: 100px;
@@ -274,7 +274,7 @@ li + li {
   top: 11px;
 }
 
-.about-title {
+.services-title {
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   line-height: 24px;
@@ -283,7 +283,7 @@ li + li {
   margin-bottom: 10px;
 }
 
-.about-text {
+.services-text {
   font-family: "PT Serif", serif;
   font-size: 14px;
   line-height: 18px;
@@ -292,7 +292,7 @@ li + li {
   color: #5e5e5e;
 }
 
-.about__btn a {
+.services__btn a {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -303,21 +303,22 @@ li + li {
   border: 3px solid #e6e6e6;
 }
 
-.about__items {
+.services__items {
   display: flex;
   justify-content: space-between;
 }
 
-.about__item {
+.services__item {
   max-width: 360px;
   text-align: center;
   padding: 30px 0px 80px;
   position: relative;
   min-height: 375px;
-  background-color: #ccc;
+  background-color: #f9f9f9;
+  box-shadow: 0px 7px 24px 3px rgba(91, 89, 89, 0.14);
 }
 
-.about__item-title {
+.services__item-title {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -326,7 +327,7 @@ li + li {
   padding: 24px 0;
 }
 
-.about__item-text {
+.services__item-text {
   font-family: "PT Serif", serif;
   font-size: 14px;
   line-height: 18px;
@@ -336,7 +337,29 @@ li + li {
   padding: 0px 30px 30px;
 }
 
-.about__item-btn {
+.services__item-btn {
   position: absolute;
   bottom: 40px;
+  left: 0;
+  right: 0;
+}
+
+.services__item-btn .default-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: #373636;
+}
+
+.services__item-btn .default-btn::after {
+  color: #fff;
+}
+
+.services__item-link {
+  font-family: "Roboto", sans-serif;
+  border-bottom: 1px solid #050505;
+  color: #050505;
+  margin-right: 60px;
 }
