@@ -3,19 +3,18 @@
 
 <head>
    <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Free-psd</title>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap"
+   <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&amp;subset=cyrillic"
       rel="stylesheet">
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/fonts.css">
-   <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-   <link rel="stylesheet" href="css/jquery.formstyler.css">
    <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/jquery.formstyler.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
@@ -103,10 +102,10 @@
       <div class="container">
          <div class="services__top">
             <div class="services__title-box">
-               <div class="services-title">
+               <div class="services__title">
                   Наши Услуги
                </div>
-               <div class="services-text">
+               <div class="services__text">
                   Комплексный подход к вашему вопросу, своевременная правовую помощь, представление
                   интересов во всех судебных инстанциях.
                </div>
@@ -189,6 +188,63 @@
    </section>
 </body>
 
+<section class="form">
+   <div class="container">
+      <div class="form__inner">
+         <div class="form__content">
+            <div class="form__title-box">
+               <div class="form__title">
+                  Получить Консультацию
+               </div>
+               <div class="form__text">
+                  Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов во всех
+                  судебных инстанциях.
+               </div>
+            </div>
+            <div class="form__box">
+               <form>
+                  <div class="form__box-inner">
+                     <div class="form__box-left">
+                        <label>
+                           E-mail
+                           <input type="text">
+                        </label>
+                        <label>
+                           Контактный телефон
+                           <input type="text">
+                        </label>
+                        <label>
+                           ФИО
+                           <input type="text">
+                        </label>
+                        <label>
+                           Тема вопроса
+                           <select>
+                              <option>-------------</option>
+                              <option>-------------</option>
+                              <option>-------------</option>
+                              <option>-------------</option>
+                           </select>
+                        </label>
+                     </div>
+                     <div class="form__box-right">
+                        <label>
+                           Сообщение
+                           <textarea>
+
+                           </textarea>
+                        </label>
+                        <button class="default-btn" type="submit">Получить консультацию</button>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+</section><!-- form -->
+
 
 
 <div id="modal">
@@ -199,11 +255,11 @@
    </form>
 </div>
 
-<script src="/js/jquery-3.6.0.min.js"></script>
-<script src="/js/jquery.fancybox.min.js"></script>
-<script src="/js/jquery.formstyler.min.js"></script>
-<script src="/js/slick.min.js"></script>
-<script src="/js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/main.js"></script>
 
 
 </html>
