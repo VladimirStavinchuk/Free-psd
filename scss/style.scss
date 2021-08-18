@@ -537,3 +537,64 @@ li + li {
    color: #282828;
    float: right;
 }
+
+.advantages {
+   padding: 55px 0px 40px;
+   background-image: url(../img/adv-fon.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 285px;
+   background-size: cover;
+   .container {
+      .advantages__inner {
+         color: #fff;
+         display: flex;
+         justify-content: space-between;
+         text-align: center;
+         .advantages__item {
+            max-width: 360px;
+            padding: 0px 20px;
+         }
+         .advantages__title {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 500;
+            padding: 60px 0px 15px;
+            position: relative;
+         }
+         .advantages__title::before {
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border: 2px solid #ffc222;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+         }
+         .advantages__title::after {
+            content: "\f00c";
+            font-family: "icomoon";
+            font-size: 14px;
+            position: absolute;
+            top: 9px;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+         }
+         .advantages__text {
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: #d3d2d2;
+         }
+      }
+   }
+}
