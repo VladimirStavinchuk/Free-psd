@@ -8,8 +8,8 @@ a {
   display: inline-block;
 }
 
-li,
-ul {
+ul,
+li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -126,7 +126,7 @@ body {
   -o-transition: all 0.3s;
 }
 
-li + li {
+.menu li + li {
   padding-left: 10px;
 }
 
@@ -183,7 +183,6 @@ li + li {
 }
 
 .default-btn::after {
-  outline: none;
   content: "";
   font-family: "icomoon";
   position: absolute;
@@ -230,22 +229,22 @@ li + li {
   -o-transform: translate(-50%, -50%);
 }
 
-.slick-next {
-  right: 0;
-}
-
 .slick-next::before {
   content: "";
   font-family: "icomoon";
 }
 
-.slick-prev {
-  left: 0;
-}
-
 .slick-prev::before {
   content: "";
   font-family: "icomoon";
+}
+
+.slick-next {
+  right: 0;
+}
+
+.slick-prev {
+  left: 0;
 }
 
 .services {
@@ -298,10 +297,7 @@ li + li {
 
 .services__btn a,
 .news__btn a {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
   line-height: 24px;
-  font-weight: 400;
   letter-spacing: 0.25px;
   color: #373636;
   padding: 5px 38px;
@@ -626,16 +622,16 @@ li + li {
   justify-content: space-between;
 }
 
-.news___slider {
+.news__slider {
   max-width: 555px;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0px 5px 15px 1px rgba(128, 127, 127, 0.12);
+  box-shadow: 0px 5px 15.36px 0.64px rgba(128, 127, 127, 0.13);
   padding: 60px 35px 45px 70px;
   position: relative;
 }
 
-.news___slider::before {
+.news__slider::before {
   content: "";
   font-family: "icomoon";
   position: absolute;
@@ -673,9 +669,9 @@ li + li {
 }
 
 .news__blog-title {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.5px;
   color: #242424;
   padding: 12px 0;
@@ -687,24 +683,17 @@ li + li {
 }
 
 .news__slider-title {
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 500;
-  letter-spacing: 0.5px;
   color: #242424;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
   margin-bottom: 15px;
 }
 
 .news__slider-text {
   margin-bottom: 30px;
-}
-
-.news__slider-author {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.1px;
-  color: #212020;
 }
 
 .news__slider-inner .slick-btn {
@@ -722,7 +711,7 @@ li + li {
 }
 
 .news__slider-inner .slick-disabled {
-  background-color: #dadada;
+  border-color: #dadada;
 }
 
 .news__slider-inner .slick-disabled::before {
