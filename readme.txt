@@ -9,9 +9,4 @@ https://www.youtube.com/watch?v=Q2zxQNQGcU8&list=PLN2KCaMlZNdCBrVcXJXEO1iaTkZIME
 Cкачать psd макет - http://bit.ly/2ZnLC8u
 Готовая верстка сайта - http://bit.ly/2Pkn5wz
 
-
-time: 4:32:00 невс снова переделать
-
-5:15 футер
-
-5:23
+5:45
